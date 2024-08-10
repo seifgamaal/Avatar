@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    /* font-family: "Ubuntu Mono", monospace; */
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+a{color: white;
+text-decoration: none;}
+body{
+    background-image: linear-gradient(to right,#01022d,#000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#Boss{
+    width: 90%;
+    height: 640px;
+    background-image:linear-gradient(to right, #01022de5 30%,#00000088), url(80.webp) ;
+    background-position: center;
+}
+#Boos:hover{
+    background-image:linear-gradient(to right, #01022de5 30%,transparent), url(80.webp) ;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{font-size: 30px;
+text-transform: uppercase;}
+ul{list-style: none;
+    width: 60%;
+display: flex;
+justify-content: space-between;
+border-bottom:2px solid white ;}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+
+#K{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+#K h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+#K p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0px;
+}
+#K button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+#K button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
